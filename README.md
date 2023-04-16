@@ -1,2 +1,1 @@
-#This Powershell script will import two CSV files.
-#Compares the customer column for a new entry and emails the values for the new entries.
+The following Powershell script imports two CSV files and checks if there are any new entries in the customer column. If there are any new entries, the script sends an email containing the relevant values.
