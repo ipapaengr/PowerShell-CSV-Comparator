@@ -2,8 +2,8 @@ $oldCsv = Import-Csv -Path '.\old.csv'
 $newCsv = Import-Csv -Path '.\new.csv'
 
 $argsEmail = @{
-	To = 'miles@domain.com'
-	From = 'csv@domain.com'
+	To = 'me@domain.com'
+	From = 'you@domain.com'
 	Subject = 'New Customers'
 	BodyAsHtml = $true
 	SmtpServer = 'smtp.domain.com'
